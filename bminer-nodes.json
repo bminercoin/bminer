@@ -1,0 +1,25 @@
+{
+  "nodes": [
+    {
+      "name": "Bminer Node",
+      "url": "bnode.bminer.live",
+      "port": 11898,
+      "ssl": false,
+      "cache": false
+    },
+    {
+      "name": "BminerCPUNode",
+      "url": "cpunode.bminer.live",
+      "port": 11898,
+      "ssl": false,
+      "cache": false
+    },
+    {
+      "name": "BminerReserverNode",
+      "url": "reserve.bminer.live",
+      "port": 11898,
+      "ssl": false,
+      "cache": true
+    }
+  ]
+}
