@@ -1,14 +1,14 @@
-![image](https://user-images.githubusercontent.com/34389545/35821974-62e0e25c-0a70-11e8-87dd-2cfffeb6ed47.png)
+![image](https://github.com/bminercoin/bminer/blob/master/src/config/bminer.png)
 
 #### Master Build Status
-[![Build Status](https://travis-ci.org/turtlecoin/turtlecoin.svg?branch=master)](https://travis-ci.org/turtlecoin/turtlecoin) [![Build status](https://ci.appveyor.com/api/projects/status/github/turtlecoin/turtlecoin?branch=master&svg=true)](https://ci.appveyor.com/project/RocksteadyTC/turtlecoin)
+[![Build Status](https://travis-ci.org/Bminercoin/Bminercoin.svg?branch=master)](https://travis-ci.org/Bminercoin/Bminercoin) [![Build status](https://ci.appveyor.com/api/projects/status/github/Bminercoin/Bminercoin?branch=master&svg=true)](https://ci.appveyor.com/project/RocksteadyTC/Bminercoin)
 
 #### Development Build Status
-[![Build Status](https://travis-ci.org/turtlecoin/turtlecoin.svg?branch=development)](https://travis-ci.org/turtlecoin/turtlecoin) [![Build status](https://ci.appveyor.com/api/projects/status/github/turtlecoin/turtlecoin?branch=development&svg=true)](https://ci.appveyor.com/project/RocksteadyTC/turtlecoin)
+[![Build Status](https://travis-ci.org/Bminercoin/Bminercoin.svg?branch=development)](https://travis-ci.org/Bminercoin/Bminercoin) [![Build status](https://ci.appveyor.com/api/projects/status/github/Bminercoin/Bminercoin?branch=development&svg=true)](https://ci.appveyor.com/project/RocksteadyTC/Bminercoin)
 
 ### Installing
 
-We offer binary images of the latest releases here: http://latest.turtlecoin.lol
+We offer binary images of the latest releases here: http://latest.Bminercoin.lol
 
 If you would like to compile yourself, read on.
 
@@ -35,8 +35,8 @@ If you are using Clang, you will need Clang 6.0 or higher. You will also need li
 - `sudo pip install cmake`
 - `export CC=gcc-8`
 - `export CXX=g++-8`
-- `git clone -b master --single-branch https://github.com/turtlecoin/turtlecoin`
-- `cd turtlecoin`
+- `git clone -b master --single-branch https://github.com/Bminercoin/Bminercoin`
+- `cd Bminercoin`
 - `mkdir build`
 - `cd build`
 - `cmake ..`
@@ -45,7 +45,7 @@ If you are using Clang, you will need Clang 6.0 or higher. You will also need li
 The binaries will be in the `src` folder when you are complete.
 
 - `cd src`
-- `./TurtleCoind --version`
+- `./BminerCoind --version`
 
 ##### Ubuntu, using Clang
 
@@ -69,8 +69,8 @@ You need to modify the below command for your version of ubuntu - see https://ap
 - `sudo pip install cmake`
 - `export CC=clang-6.0`
 - `export CXX=clang++-6.0`
-- `git clone -b master --single-branch https://github.com/turtlecoin/turtlecoin`
-- `cd turtlecoin`
+- `git clone -b master --single-branch https://github.com/Bminercoin/Bminercoin`
+- `cd Bminercoin`
 - `mkdir build`
 - `cd build`
 - `cmake ..`
@@ -79,7 +79,7 @@ You need to modify the below command for your version of ubuntu - see https://ap
 The binaries will be in the `src` folder when you are complete.
 
 - `cd src`
-- `./TurtleCoind --version`
+- `./BminerCoind --version`
 
 ##### Generic Linux
 
@@ -88,8 +88,8 @@ Ensure you have the dependencies listed above.
 If you want to use clang, ensure you set the environment variables `CC` and `CXX`.
 See the ubuntu instructions for an example.
 
-- `git clone -b master --single-branch https://github.com/turtlecoin/turtlecoin`
-- `cd turtlecoin`
+- `git clone -b master --single-branch https://github.com/Bminercoin/Bminercoin`
+- `cd Bminercoin`
 - `mkdir build`
 - `cd build`
 - `cmake ..`
@@ -98,7 +98,7 @@ See the ubuntu instructions for an example.
 The binaries will be in the `src` folder when you are complete.
 
 - `cd src`
-- `./TurtleCoind --version`
+- `./BminerCoind --version`
 
 #### OSX/Apple, using GCC
 
@@ -112,8 +112,8 @@ The binaries will be in the `src` folder when you are complete.
 - `brew install --force cmake boost llvm gcc@8 openssl`
 - `export CC=gcc-8`
 - `export CXX=g++-8`
-- `git clone -b master --single-branch https://github.com/turtlecoin/turtlecoin`
-- `cd turtlecoin`
+- `git clone -b master --single-branch https://github.com/Bminercoin/Bminercoin`
+- `cd Bminercoin`
 - `mkdir build`
 - `cd build`
 - `cmake ..`
@@ -122,7 +122,7 @@ The binaries will be in the `src` folder when you are complete.
 The binaries will be in the `src` folder when you are complete.
 
 - `cd src`
-- `./TurtleCoind --version`
+- `./BminerCoind --version`
 
 #### OSX/Apple, using Clang
 
@@ -136,8 +136,8 @@ The binaries will be in the `src` folder when you are complete.
 - `brew install --force cmake boost llvm openssl`
 - `export CC=/usr/local/opt/llvm/bin/clang`
 - `export CXX=/usr/local/opt/llvm/bin/clang++`
-- `git clone -b master --single-branch https://github.com/turtlecoin/turtlecoin`
-- `cd turtlecoin`
+- `git clone -b master --single-branch https://github.com/Bminercoin/Bminercoin`
+- `cd Bminercoin`
 - `mkdir build`
 - `cd build`
 - `cmake ..`
@@ -146,7 +146,7 @@ The binaries will be in the `src` folder when you are complete.
 The binaries will be in the `src` folder when you are complete.
 
 - `cd src`
-- `./TurtleCoind --version`
+- `./BminerCoind --version`
 
 
 #### Windows
@@ -168,39 +168,39 @@ You can build for 32-bit or 64-bit Windows. **If you're not sure, pick 64-bit.**
 
 For 64-bit:
 - From the start menu, open 'x64 Native Tools Command Prompt for vs2017'.
-- `cd <your_turtlecoin_directory>`
+- `cd <your_Bminercoin_directory>`
 - `mkdir build`
 - `cd build`
 - `set PATH="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin";%PATH%`
 - `cmake -G "Visual Studio 15 2017 Win64" .. -DBOOST_ROOT=C:/local/boost_1_68_0`
-- `MSBuild TurtleCoin.sln /p:Configuration=Release /m`
+- `MSBuild BminerCoin.sln /p:Configuration=Release /m`
 
 For 32-bit:
 - From the start menu, open 'x86 Native Tools Command Prompt for vs2017'.
-- `cd <your_turtlecoin_directory>`
+- `cd <your_Bminercoin_directory>`
 - `mkdir build`
 - `cd build`
 - `set PATH="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin";%PATH%`
 - `cmake -G "Visual Studio 15 2017" .. -DBOOST_ROOT=C:/local/boost_1_68_0`
-- `MSBuild TurtleCoin.sln /p:Configuration=Release /p:Platform=Win32 /m`
+- `MSBuild BminerCoin.sln /p:Configuration=Release /p:Platform=Win32 /m`
 
 The binaries will be in the `src/Release` folder when you are complete.
 
 - `cd src`
 - `cd Release`
-- `TurtleCoind.exe --version`
+- `BminerCoind.exe --version`
 
 #### Thanks
-Cryptonote Developers, Bytecoin Developers, Monero Developers, Forknote Project, TurtleCoin Community
+Cryptonote Developers, Bytecoin Developers, Monero Developers, Forknote Project, BminerCoin Community
 
 ### Copypasta for license when editing files
 
-Hi TurtleCoin contributor, thanks for forking and sending back Pull Requests. Extensive docs about contributing are in the works or elsewhere. For now this is the bit we need to get into all the files we touch. Please add it to the top of the files, see [src/CryptoNoteConfig.h](https://github.com/turtlecoin/turtlecoin/commit/28cfef2575f2d767f6e512f2a4017adbf44e610e) for an example.
+Hi BminerCoin contributor, thanks for forking and sending back Pull Requests. Extensive docs about contributing are in the works or elsewhere. For now this is the bit we need to get into all the files we touch. Please add it to the top of the files, see [src/CryptoNoteConfig.h](https://github.com/bminercoin/bminer/commit/28cfef2575f2d767f6e512f2a4017adbf44e610e) for an example.
 
 ```
 // Copyright (c) 2012-2017, The CryptoNote developers, The Bytecoin developers
 // Copyright (c) 2014-2018, The Monero Project
-// Copyright (c) 2018-2019, The TurtleCoin Developers
+// Copyright (c) 2018-2019, The BminerCoin Developers
 //
 // Please see the included LICENSE file for more information.
 ```
